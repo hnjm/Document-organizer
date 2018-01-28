@@ -47,13 +47,15 @@
             this.rblModDate = new System.Windows.Forms.RadioButton();
             this.rblCreatedDate = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 17);
+            this.label1.Location = new System.Drawing.Point(6, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 13);
             this.label1.TabIndex = 0;
@@ -61,14 +63,14 @@
             // 
             // progressBar
             // 
-            this.progressBar.Location = new System.Drawing.Point(15, 493);
+            this.progressBar.Location = new System.Drawing.Point(15, 513);
             this.progressBar.Name = "progressBar";
             this.progressBar.Size = new System.Drawing.Size(526, 23);
             this.progressBar.TabIndex = 1;
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(95, 12);
+            this.btnBrowse.Location = new System.Drawing.Point(89, 25);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(114, 23);
             this.btnBrowse.TabIndex = 2;
@@ -79,7 +81,7 @@
             // lblSelectedFolder
             // 
             this.lblSelectedFolder.AutoSize = true;
-            this.lblSelectedFolder.Location = new System.Drawing.Point(12, 41);
+            this.lblSelectedFolder.Location = new System.Drawing.Point(13, 53);
             this.lblSelectedFolder.Name = "lblSelectedFolder";
             this.lblSelectedFolder.Size = new System.Drawing.Size(0, 13);
             this.lblSelectedFolder.TabIndex = 3;
@@ -87,7 +89,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(288, 17);
+            this.label2.Location = new System.Drawing.Point(278, 30);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 13);
             this.label2.TabIndex = 4;
@@ -95,7 +97,7 @@
             // 
             // btnDestination
             // 
-            this.btnDestination.Location = new System.Drawing.Point(399, 12);
+            this.btnDestination.Location = new System.Drawing.Point(380, 25);
             this.btnDestination.Name = "btnDestination";
             this.btnDestination.Size = new System.Drawing.Size(114, 23);
             this.btnDestination.TabIndex = 5;
@@ -106,14 +108,14 @@
             // lblDest
             // 
             this.lblDest.AutoSize = true;
-            this.lblDest.Location = new System.Drawing.Point(288, 41);
+            this.lblDest.Location = new System.Drawing.Point(285, 53);
             this.lblDest.Name = "lblDest";
             this.lblDest.Size = new System.Drawing.Size(0, 13);
             this.lblDest.TabIndex = 6;
             // 
             // btnProcess
             // 
-            this.btnProcess.Location = new System.Drawing.Point(230, 422);
+            this.btnProcess.Location = new System.Drawing.Point(220, 455);
             this.btnProcess.Name = "btnProcess";
             this.btnProcess.Size = new System.Drawing.Size(118, 23);
             this.btnProcess.TabIndex = 7;
@@ -123,17 +125,18 @@
             // 
             // txtDisplay
             // 
-            this.txtDisplay.Location = new System.Drawing.Point(15, 184);
+            this.txtDisplay.Location = new System.Drawing.Point(7, 229);
             this.txtDisplay.Multiline = true;
             this.txtDisplay.Name = "txtDisplay";
             this.txtDisplay.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtDisplay.Size = new System.Drawing.Size(526, 207);
+            this.txtDisplay.Size = new System.Drawing.Size(534, 207);
             this.txtDisplay.TabIndex = 8;
+            this.txtDisplay.Text = "Progress output";
             // 
             // lblProgressText
             // 
             this.lblProgressText.AutoSize = true;
-            this.lblProgressText.Location = new System.Drawing.Point(288, 448);
+            this.lblProgressText.Location = new System.Drawing.Point(280, 481);
             this.lblProgressText.Name = "lblProgressText";
             this.lblProgressText.Size = new System.Drawing.Size(0, 13);
             this.lblProgressText.TabIndex = 9;
@@ -225,34 +228,46 @@
             this.groupBox1.Controls.Add(this.chkCheckTakenDate);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Location = new System.Drawing.Point(15, 78);
+            this.groupBox1.Location = new System.Drawing.Point(7, 114);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(526, 100);
+            this.groupBox1.Size = new System.Drawing.Size(534, 100);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Options";
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Controls.Add(this.btnBrowse);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.lblDest);
+            this.groupBox2.Controls.Add(this.btnDestination);
+            this.groupBox2.Controls.Add(this.lblSelectedFolder);
+            this.groupBox2.Location = new System.Drawing.Point(7, 12);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(534, 86);
+            this.groupBox2.TabIndex = 19;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Document Locations";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(553, 537);
+            this.ClientSize = new System.Drawing.Size(553, 546);
             this.Controls.Add(this.lblProgressText);
             this.Controls.Add(this.txtDisplay);
             this.Controls.Add(this.btnProcess);
-            this.Controls.Add(this.lblDest);
-            this.Controls.Add(this.btnDestination);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.lblSelectedFolder);
-            this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.progressBar);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupBox2);
             this.Name = "Form1";
             this.Text = "LDT File Organizer v1.2";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -279,6 +294,7 @@
         private System.Windows.Forms.RadioButton rblModDate;
         private System.Windows.Forms.RadioButton rblCreatedDate;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
     }
 }
 
