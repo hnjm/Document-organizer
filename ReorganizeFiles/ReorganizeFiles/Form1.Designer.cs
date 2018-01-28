@@ -83,8 +83,9 @@
             this.lblSelectedFolder.AutoSize = true;
             this.lblSelectedFolder.Location = new System.Drawing.Point(13, 53);
             this.lblSelectedFolder.Name = "lblSelectedFolder";
-            this.lblSelectedFolder.Size = new System.Drawing.Size(0, 13);
+            this.lblSelectedFolder.Size = new System.Drawing.Size(99, 13);
             this.lblSelectedFolder.TabIndex = 3;
+            this.lblSelectedFolder.Text = "-No folder selected-";
             // 
             // label2
             // 
@@ -110,8 +111,9 @@
             this.lblDest.AutoSize = true;
             this.lblDest.Location = new System.Drawing.Point(285, 53);
             this.lblDest.Name = "lblDest";
-            this.lblDest.Size = new System.Drawing.Size(0, 13);
+            this.lblDest.Size = new System.Drawing.Size(99, 13);
             this.lblDest.TabIndex = 6;
+            this.lblDest.Text = "-No folder selected-";
             // 
             // btnProcess
             // 
@@ -136,10 +138,11 @@
             // lblProgressText
             // 
             this.lblProgressText.AutoSize = true;
-            this.lblProgressText.Location = new System.Drawing.Point(280, 481);
+            this.lblProgressText.Location = new System.Drawing.Point(265, 481);
             this.lblProgressText.Name = "lblProgressText";
-            this.lblProgressText.Size = new System.Drawing.Size(0, 13);
+            this.lblProgressText.Size = new System.Drawing.Size(24, 13);
             this.lblProgressText.TabIndex = 9;
+            this.lblProgressText.Text = "0/0";
             // 
             // label3
             // 

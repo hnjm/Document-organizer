@@ -33,3 +33,16 @@ G:\Personal Projects\Desktop Apps\ReorganizeFiles\ReorganizeFiles\obj\Debug\Reor
 G:\Personal Projects\Desktop Apps\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.application
 G:\Personal Projects\Desktop Apps\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.exe
 G:\Personal Projects\Desktop Apps\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.pdb
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\bin\Debug\ReorganizeFiles.exe.config
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\bin\Debug\ReorganizeFiles.exe.manifest
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\bin\Debug\ReorganizeFiles.application
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\bin\Debug\ReorganizeFiles.exe
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\bin\Debug\ReorganizeFiles.pdb
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.csprojResolveAssemblyReference.cache
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFles.Form1.resources
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.Properties.Resources.resources
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.csproj.GenerateResource.Cache
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.exe.manifest
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.application
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.exe
+C:\Users\SaturnV\Desktop\Local GIT\Document-organizer\ReorganizeFiles\ReorganizeFiles\obj\Debug\ReorganizeFiles.pdb
