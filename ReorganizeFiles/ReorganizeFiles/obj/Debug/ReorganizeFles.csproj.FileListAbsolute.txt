@@ -1,0 +1,9 @@
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\obj\Debug\ReorganizeFles.csprojResolveAssemblyReference.cache
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\obj\Debug\ReorganizeFles.Form1.resources
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\obj\Debug\ReorganizeFles.Properties.Resources.resources
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\obj\Debug\ReorganizeFles.csproj.GenerateResource.Cache
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\bin\Debug\ReorganizeFles.exe.config
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\bin\Debug\ReorganizeFles.exe
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\bin\Debug\ReorganizeFles.pdb
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\obj\Debug\ReorganizeFles.exe
+c:\users\saturnv\documents\visual studio 2017\Projects\ReorganizeFles\ReorganizeFles\obj\Debug\ReorganizeFles.pdb
